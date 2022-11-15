@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 147862114361113062}
   - component: {fileID: 1270343404807302926}
   - component: {fileID: -3002994700916131960}
+  - component: {fileID: 921667000537280663}
   m_Layer: 0
   m_Name: Explosion
   m_TagString: Untagged
@@ -4825,3 +4826,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9989ce57d29944baab60d9aadcb964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &921667000537280663
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2849983402343858216}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0045012236, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.6125312
